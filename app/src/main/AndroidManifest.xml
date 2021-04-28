@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vinie4apps.horariobusaobarbacena" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".Linhas.Linha401A" >
+        </activity>
+        <activity android:name=".Linhas.Linha400A" />
+        <activity android:name=".Linhas.Linha403" />
+        <activity android:name=".Linhas.Linha260" />
+        <activity android:name=".Linhas.Linha402" />
+        <activity android:name=".Linhas.Linha250" />
+        <activity android:name=".Linhas.Linha513" />
+        <activity android:name=".Linhas.Linha240" />
+        <activity android:name=".Linhas.Linha401" />
+        <activity android:name=".Linhas.Linha303" />
+        <activity android:name=".Linhas.Linha400" />
+        <activity android:name=".Linhas.Linha302" />
+        <activity android:name=".Linhas.Linha301" />
+        <activity android:name=".Linhas.Linha270" />
+        <activity android:name=".Linhas.Linha230" />
+        <activity android:name=".Linhas.Linha220" />
+        <activity android:name=".Linhas.Linha210" />
+        <activity android:name=".Linhas.Linha160" />
+        <activity android:name=".Linhas.Linha150" />
+        <activity android:name=".Linhas.Linha148" />
+        <activity android:name=".Linhas.Linha137" />
+        <activity android:name=".Linhas.Linha118" />
+        <activity android:name=".Linhas.Linha124" />
+        <activity android:name=".Linhas.Linha117" />
+        <activity android:name=".Linhas.Linha112" />
+        <activity android:name=".Linhas.Linha109" />
+        <activity android:name=".Linhas.Linha108" />
+        <activity android:name=".Linhas.Linha107" />
+        <activity android:name=".Linhas.Linha106" />
+        <activity android:name=".Linhas.Linha105" />
+        <activity android:name=".Linhas.Linha101e200" />
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9515612908682608~9948422535" />
+    </application>
+
+</manifest>
